@@ -1,0 +1,250 @@
+body{
+    background-image: url("C:\Users\sheikdarga\Downloads\abstract-wall.jpg");
+}
+.header{
+    background-color: rgb(145, 145, 236);
+    background-size: cover;
+    top:0;
+   }
+
+.border-hover {
+    border-top: 5px solid transparent;
+    transform: translateY(-4px);
+}
+
+.border-hover:hover {
+    border-top: 5px solid #ff9138;
+    transform: translateY(-4px);
+}
+
+
+.navbar-toggler {
+    border:2px solid #FF9138;
+}
+
+
+#nav-length {
+    width: 90%;
+}
+
+@media screen and (max-width : 992px) {
+    #nav-length {
+        width: 100%;
+    }
+
+    .border-hover {
+        border-top: 0;
+    }
+
+    .border-hover:hover {
+        border-top: 0;
+    }
+}
+
+.textcolor{
+    color: orange;
+}
+
+
+.hero-video {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.hero-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.sborder{
+    margin-top: 10%; 
+    margin-bottom: 10%; 
+    border: 2px solid  rgb(2, 97, 156);
+    border-top-right-radius: 10dvh;
+    border-bottom-left-radius: 10dvh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.tplace{
+    text-align: center;
+}
+.psize{
+    font-size: 26px;
+}
+.h1size{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(55, 109, 208);
+
+} 
+.icon{
+    text-align: center;
+    color:orange;
+}
+.box{
+    margin-top: 10%; 
+    margin-bottom: 10%; 
+    border: 2px solid  rgb(2, 97, 156);
+    padding: 3% 3%;
+}
+.containeroverlay
+{
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+  
+.image {
+    display: block;
+    width: 100%;
+   
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #93d6f0;
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay:hover {
+    opacity: 0.5;
+  
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+@media screen and (min-width: 320px) {
+    .image11{
+        width: 100%; 
+        height: 525px;
+    
+    }
+    .image22{
+        width: 100%;
+        height: 250px;
+    }
+} 
+.cardstyle{
+    padding: 5% 5%;
+    height: 300px;
+} 
+@media screen and (max-width: 320px){
+    .cardstyle{
+        height: 400px;
+    }
+}
+.img-gallery {
+    overflow: hidden;
+  }
+  
+  .img-gallery img {
+    transition: all 1.3s ease;
+  }
+  
+  .img-gallery:hover img {
+    transform: scale(1.2);
+  }
+  .center{
+    text-align: center;
+}
+.teamimg{
+    width: 90%; 
+    height:300px; 
+    border-radius:70%;
+}
+.textborder{
+    border:2px solid rgb(82, 130, 219);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+.pstyle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.hstyle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:rgb(55, 109, 208);
+}
+.contentplace{
+    margin-top: 50px;
+}
+.contentbg{
+    background-color:rgb(213, 216, 218);
+}
+.socialsize{
+    height: 20px;
+    width: 20px;
+}
+.bgcolour{
+    background-color: rgb(173, 217, 119);
+}
+.center{
+    text-align: center;
+}
+span{
+    font-size: 40px;
+    
+    color:rgb(201, 77, 156);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.text-size{
+    font-size: 24px;  
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.headings{
+    color: #ff9138;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.margin{
+    margin-top: 20px;
+}
+.imgbg{
+    background-image:url("../pvr img/abstract flow 0802.jpg");
+    width: 100%;
+
+}

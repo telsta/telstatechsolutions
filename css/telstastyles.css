@@ -1,0 +1,295 @@
+body {
+    position: relative;
+  }
+
+
+.header{
+    background-color: rgb(145, 145, 236);
+    background-size: cover;
+    top:0;
+   }
+
+.border-hover {
+    border-top: 5px solid transparent;
+    transform: translateY(-4px);
+}
+
+.border-hover:hover {
+    border-top: 5px solid #ff9138;
+    transform: translateY(-4px);
+}
+
+
+.navbar-toggler {
+    border:2px solid #FF9138;
+}
+
+
+#nav-length {
+    width: 90%;
+}
+
+@media screen and (max-width : 992px) {
+    #nav-length {
+        width: 100%;
+    }
+
+    .border-hover {
+        border-top: 0;
+    }
+
+    .border-hover:hover {
+        border-top: 0;
+    }
+}
+.hero {
+ 	position: relative;
+}
+
+.hero-overlay {
+  text-align: center;
+ color: white;
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 0;
+  left: 20%;
+  right: 20% ;
+  top: 50px;
+
+}
+.hero-overlay2 {
+  text-align: center;
+ color: white;
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  z-index: 0;
+  right: 50%;
+  
+  top: 50px;
+
+}
+@media(max-width:320px) {
+  .hero-overlay2{
+  text-align: center;
+ color: white;
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  z-index: 0;
+  right:80px;
+  top: 50px;
+
+}
+  
+}
+.hero-overlay1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top:50px;
+  
+}
+.img-zoom {
+	position: relative;
+	overflow:hidden;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  
+}
+.img-zoom h1 {
+	max-width: 100%;
+	-moz-transition: all 2.0s;
+	-webkit-transition: all 2.0s;
+	transition: all 2.0s;
+}
+ 
+
+
+.img-zoom:hover h1{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.hero-image {
+  z-index:-1;
+  width: 100%;
+  height: 650px;
+}
+.rainbow{
+  background-color:orange;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+.rainbow-1:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+  animation:slidebg 2s linear infinite;
+}
+
+
+
+@media (max-width:767px) {
+h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+
+
+.box {
+  
+  position:relative;
+  overflow:hidden;
+}
+
+.cover {
+  position: absolute;
+  bottom: 0;
+  
+  background-color:rgba(60, 14, 146, 0.75);
+  width: 100%;
+  height:16%;
+  transition: .8s ease;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+
+
+}
+.cover:hover {
+  height: 100%;
+  opacity:0.5;
+}
+.cover1 {
+  position: absolute;
+  bottom: 0;
+  background-color:rgba(60, 14, 146, 0.75);
+  width: 100%;
+  height:10%;
+  transition: .8s ease;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+
+
+}
+.cover1:hover {
+  height: 100%;
+  opacity:1;
+}
+
+
+
+.img{
+    margin-top: 140px;
+    margin-right: 100px;
+    transform: rotate(-0.12turn);
+}
+.services{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.services-img {
+  width: 34px;
+  height: 34px; 
+  transition: width 2s, height 2s, transform 1s;
+}
+.services-img:hover {
+  width: 34px;
+  height:34px;
+  transform: rotate(360deg);
+}
+.textcolor{
+    color: orange;
+}
+.mainicon-height{
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+
+}
+.zoom:hover {
+  transform: scale(0.9);
+}
+.heading{
+    font-family: Times New Roman, Times, serif;
+     font-weight: bold;
+     font-size: 65px;
+}
+.heading1{
+    font-family: Times New Roman, Times, serif;
+     font-weight: bold;
+     font-size: 45px;
+}
+.heading2{
+    font-family: Times New Roman, Times, serif;
+
+}
+
+.one{
+
+transition: all 0.2s ease;
+cursor: pointer;
+font-family: Times New Roman, Times, serif;
+
+}
+.one:hover{
+
+box-shadow: 5px 6px 6px 2px #e9ecef;
+background-color: aqua;
+
+transform: scale(1.1);
+}
+.two{
+
+transition: all 0.2s ease;
+cursor: pointer;
+font-family: Times New Roman, Times, serif;
+
+}
+.two:hover{
+
+box-shadow: 5px 6px 6px 2px #e9ecef;
+background-color: rgb(126, 173, 173);
+
+transform: scale(1.1);
+}
+.circleimg:hover{
+  border-style: groove;
+  border-color: #FF9138;
+}
+.employedata:hover{
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  background-color: #7c4dff;
+  color:white;
+  transform: scale(1.1);
+}
+.scrol{
+  margin-top: 65px;
+font-size: 16px;
+position: fixed;
+width: 10px;
+color: black;
+transition: all 0.2s ease;
+cursor: pointer;
+font-family: Times New Roman, Times, serif;
+
+}
+.scrol:hover{
+    box-shadow: 10px 6px 6px 2px #a2c3e4;
+
+}
+
+

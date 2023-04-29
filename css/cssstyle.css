@@ -1,0 +1,100 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.header{
+    background-color: rgb(145, 145, 236);
+    background-size: cover;
+    top:0;
+   }
+
+.border-hover {
+    border-top: 5px solid transparent;
+    transform: translateY(-4px);
+}
+
+.border-hover:hover {
+    border-top: 5px solid #ff9138;
+    transform: translateY(-4px);
+}
+
+
+.navbar-toggler {
+    border:2px solid #FF9138;
+}
+
+
+#nav-length {
+    width: 90%;
+}
+
+@media screen and (max-width : 992px) {
+    #nav-length {
+        width: 100%;
+    }
+
+    .border-hover {
+        border-top: 0;
+    }
+
+    .border-hover:hover {
+        border-top: 0;
+    }
+}
+
+.textcolor{
+    color: orange;
+}
+
+ 
+
+    .btnc{
+                background-color: rgb(145, 145, 236);
+            }
+    .cardbg:hover{
+            background-color: rgb(145, 145, 236);
+            border: black solid 2px;
+            color: black;
+
+        }
+.cardb{
+        border:#0d0d0d solid 2px;
+}
+.bgimg{
+  background-image: url("../pvr img/logo3.jpg");
+  background-repeat: no-repeat;
+  height: 550px;
+ 
+
+  
+}
+.bgimg1{
+    background-image: url("../pvr img/contact1.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+   
+  
+    
+  }
+.bgcolor{
+    color: #0d0d0d;
+}
+.inputsize{
+    height:150px;
+}
+.contactbg{
+    background-image: url("../pvr img/soft-waves-free.jpg");
+}
+.textplace{
+    text-align: center;
+}
+label{
+    color:rgb(56, 115, 225);
+    font-size: 20px;
+}
+@media (max-width:320px){
+    .image{
+        height: 250px;
+    }
+}
